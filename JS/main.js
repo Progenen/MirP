@@ -36,4 +36,34 @@ function ibg(){
             clickable: true,
           },
     });
+
+    const results = document.querySelector('.search-results');
+    const search = document.querySelector('.search-panel');
+    const searchClear = document.querySelector('.header-search__clear');
+    const searchBtn = document.querySelector('.header-search__btn');
+
+    function searchClose() {
+        search.value = '';
+        search.classList.remove('active'); 
+        searchBtn.classList.remove('active');
+        searchClear.style.display = 'none';
+    }
+
+    search.addEventListener('click', ()=> {
+        searchClear.style.display = 'block';
+        search.classList.add('active'); 
+        searchBtn.classList.add('active');
+        searchClear.addEventListener('click', (e)=> {
+            e.preventDefault();
+            searchClose();
+        });
+    });
+    
+
+    
     $("a#gallery").fancybox();
+
+// Для блока подсказок
+
+    
+

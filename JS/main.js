@@ -71,7 +71,7 @@ function ibg(){
     if (document.body.clientWidth < 990) {
         searchBtnCopy.addEventListener('click', ()=> {
             headerSearch.classList.add('active');
-            headerSearch.style.width = `${document.body.clientWidth - 40}px`;
+            headerSearch.style.width = `${document.body.clientWidth - 30}px`;
             search.classList.add('active');
             searchClear.classList.add('active');
             searchClear.style.display = 'block';

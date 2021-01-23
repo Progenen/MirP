@@ -41,7 +41,7 @@ function ibg(){
         speed: 300,
         resistanceRatio: 1,
         spaceBetween: 30,
-        slidesPerView: 'auto',
+        slidesPerView :2.5,
         centeredSlides: true,
         loop: true,
         pagination: {

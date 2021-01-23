@@ -39,9 +39,11 @@ function ibg(){
     });
     var mySwiper = new Swiper('.swiper-home', {
         speed: 300,
-        resistanceRatio: 1,
+        loop: true,
+        resistanceRatio: 2,
         spaceBetween: 30,
         slidesPerView :2.5,
+        slideToClickedSlide: true,
         centeredSlides: true,
         loop: true,
         pagination: {

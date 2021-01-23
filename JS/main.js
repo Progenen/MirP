@@ -46,12 +46,21 @@ function ibg(){
         slideToClickedSlide: true,
         centeredSlides: true,
         loop: true,
+        breakpoints: {  
+            320: {
+                slidesPerView: 1,
+            },
+            1200: {
+                slidesPerView: 2.5,
+            },
+        },
         pagination: {
             el: '.home-pagination',
             dynamicBullets: true,
             dynamicMainBullets: 6,
             clickable: true,
           },
+    
     });
 
     // Скрипт поиска

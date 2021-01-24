@@ -55,7 +55,7 @@ function ibg(){
                 spaceBetween: 20,
             },
             1000: {
-                slidesPerView: 1.2,
+                slidesPerView: 1.5,
             },
             1200: {
                 slidesPerView: 1.5,

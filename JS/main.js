@@ -51,7 +51,7 @@ function ibg(){
                 slidesPerView: 1,
             },
             1200: {
-                slidesPerView: 2.5,
+                slidesPerView: 'auto',
             },
         },
         pagination: {

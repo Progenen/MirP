@@ -57,9 +57,13 @@ function ibg(){
             1000: {
                 slidesPerView: 1.5,
             },
+            
             1200: {
-                slidesPerView: 1.5,
-            }
+                slidesPerView: 1.7,     
+            },
+            1600: {
+                slidesPerView: 2.5,
+            },
         },
         pagination: {
             el: '.home-pagination',

@@ -42,7 +42,7 @@ function ibg(){
         loop: true,
         resistanceRatio: 2,
         spaceBetween: 30,
-        slidesPerView :2.5,
+        slidesPerView: 2.5,
         slideToClickedSlide: true,
         centeredSlides: true,
         loop: true,
@@ -50,9 +50,16 @@ function ibg(){
             320: {
                 slidesPerView: 1,
             },
-            1200: {
-                slidesPerView: 'auto',
+            860: {
+                slidesPerView: 1.2,
+                spaceBetween: 20,
             },
+            1000: {
+                slidesPerView: 1.2,
+            },
+            1200: {
+                slidesPerView: 1.5,
+            }
         },
         pagination: {
             el: '.home-pagination',
